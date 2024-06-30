@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="sidePanel.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="showdown.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <button id="settings-btn" title="Settings">
+        <i class="fa fa-cog"></i>
+      </button>
+      <p>Enter your OpenAI API key below to get started.</p>
+      <div id="input-container">
+        <input type="text" id="apiKey" placeholder="Enter your API key here" />
+      </div>
+      <p id="status-message"></p>
+      <div id="input-container">
+        <button id="save-button" title="Save API key">
+          <i class="fa fa-save"></i>
+          <span>Save</span>
+        </button>
+        <button id="delete-button" title="Delete API key">
+          <i class="fa fa-trash"></i>
+          <span>Delete API key</span>
+        </button>
+      </div>
+      <p class="note">
+        Note: Your API key will only be stored locally on your computer.
+      </p>
+    </div>
+    <div id="header-container">
+      <div class="dropdown">
+        <button id="model-dropdown-btn" title="Change model">
+          <i id="model-dropdown-btn-icon" class="fa fa-robot"></i>
+          <span id="model-dropdown-btn-text"></span>
+        </button>
+        <div id="model-dropdown-content">
+          <a id="gpt-3.5-turbo" class="model-dropdown-btn">GPT-3.5-Turbo</a>
+          <a id="gpt-4o" class="model-dropdown-btn">GPT-4o</a>
+        </div>
+      </div>
+      <button id="clear-chat-btn" title="Clear chat">
+        <i class="fa fa-trash"></i>
+      </button>
+    </div>
+    <div id="chat-container">
+      <div id="chat-messages"></div>
+    </div>
+    <div class="input-container">
+      <textarea
+        id="user-input"
+        placeholder="Ask me anything..."
+        rows="1"
+      ></textarea>
+      <button id="send-btn" title="Send message">
+        <i class="fa fa-paper-plane"></i>
+      </button>
+    </div>
+    <script src="sidePanel.js"></script>
+  </body>
+</html>

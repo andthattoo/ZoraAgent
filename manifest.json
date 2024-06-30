@@ -1,0 +1,26 @@
+{
+    "name": "Zora AI Assistant",
+    "version": "1.0.0",
+    "description": "Developed by FirstBatch for Coinbase hackathon 2024",
+    "icons": {
+        "16": "assets/icons/zorb.png",
+        "48": "assets/icons/zorb.png",
+        "128": "assets/icons/zorb.png"
+    },
+    "host_permissions": [
+        "https://api.openai.com/v1/completions"
+    ],
+    "permissions": [
+        "storage",
+        "downloads",
+        "sidePanel",
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "side_panel": {
+        "default_path": "sidePanel.html"
+    },
+    "manifest_version": 3
+}
