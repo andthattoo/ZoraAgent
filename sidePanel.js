@@ -362,7 +362,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Create an img element for the icon
     const icon = document.createElement("img");
-    icon.src = "/assets/icons/coinbase_icon.png";
+    icon.src = "/assets/icons/Zorb.png";
     icon.alt = "Assistant icon";
     icon.className = "assistant-info-icon";
     messageElement.appendChild(icon);
