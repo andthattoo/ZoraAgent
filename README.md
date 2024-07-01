@@ -8,6 +8,10 @@ ZoraAgent addresses two critical issues in the NFT space:
 1. The challenge of using Zora as a creator, where minting, creating contracts, and exploration can be complex.
 2. The difficulty of semantically exploring NFTs on the blockchain, which often pushes people towards price-oriented exploration rather than focusing on creativity, context, and transmission.
 
+![alt text](assets/images/img1.png)
+![alt text](assets/images/img2.png)
+
+
 ## Features
 
 - **Smart Discovery**: Intelligently recommends NFTs based on recent on-chain data, enabling semantic exploration of NFTs.
