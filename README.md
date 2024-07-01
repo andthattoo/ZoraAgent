@@ -4,12 +4,14 @@
 
 ZoraAgent is an innovative Chrome extension designed to revolutionize the experience of discovering, collecting, and building NFTs with Zora. This AI-powered assistant leverages the Zora protocol documentation and has access to information about NFTs listed on Zora, providing users with intelligent insights and assistance throughout their NFT journey.
 
+
+![alt text](assets/images/img1.png)
+![alt text](assets/images/img2.png)
+
 ZoraAgent addresses two critical issues in the NFT space:
 1. The challenge of using Zora as a creator, where minting, creating contracts, and exploration can be complex.
 2. The difficulty of semantically exploring NFTs on the blockchain, which often pushes people towards price-oriented exploration rather than focusing on creativity, context, and transmission.
 
-![alt text](assets/images/img1.png)
-![alt text](assets/images/img2.png)
 
 
 ## Features
